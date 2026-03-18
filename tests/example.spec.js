@@ -14,5 +14,5 @@ test('Open Rahul Shetty Academy',async({browser,page})=>
 await page.goto('https://rahulshettyacademy.com/loginpagePractise/');
 })
 test.only('Open Google', async({page})=>{
-await  page.goto('https://www.google.com/');
+await  page.goto('https://www.google.com/'); //changes
 })
