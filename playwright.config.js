@@ -5,7 +5,7 @@ const config=defineConfig({
 testDir:'./tests',
 timeout:40*1000,
 use:{
-  headless:false,
+  headless: true,
   browserName:'chromium'
 },
 reporter:'html'
